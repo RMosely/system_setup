@@ -2,8 +2,8 @@
 echo ############################
 echo "Setting up your stuff. . ."
 echo ############################
-yum update -y 
-yum install -y \
+sudo yum update -y 
+sudo yum install -y \
 	gparted \
 	vim	
 echo "jobs done"
